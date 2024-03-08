@@ -1,0 +1,99 @@
+/* ----------------Box Sizing-------------*/
+
+html{
+    box-sizing: border-box;
+
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+/*-----------------Image Sizing-------------*/
+img{
+    max-width: 100%;
+    
+}
+
+
+/*-----------------Utility Classes------------*/
+
+
+
+
+/*------------------Global Styles-------------*/
+
+body{
+
+    font-family: fantasy;
+    font-size: 170%;
+    margin: auto;
+    background-image: url("https://th.bing.com/th/id/OIP.g3ScpIp5p5LRfagm8vnjZwHaHP?rs=1&pid=ImgDetMain");
+
+}
+
+header{
+    padding-left: 1rem;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+}
+
+#links ul{
+    list-style: georgian;
+    font-size:x-large;
+}
+
+#links{
+    display:flex;
+    justify-content: center;
+    align-self:center;
+    color:yellow;
+    background-color: black;
+}
+
+#links a{
+    color:yellow;
+    background-color: black;
+}
+
+
+.images{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.images :hover{
+    background-color: rgba(0,0,0,0.4);
+}
+
+
+.images #pepsi{
+    padding-top:200px;
+    height: 1000px;
+    width: 1000px;
+    justify-content: space-between;
+
+
+}
+
+.images #mario{
+    height: 1000px;
+    width: 1000px; 
+    justify-content: space-between;
+      
+}
+
+.images #goku{
+    margin-bottom: 1200px;
+    height: 300px;
+    width: 1000px; 
+    justify-content: space-between;
+     
+}
+
+
+
+
